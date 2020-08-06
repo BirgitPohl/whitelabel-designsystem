@@ -1,0 +1,26 @@
+{
+  "name": "poc-storybook-designsystem",
+  "version": "1.0.0",
+  "description": "POC for a whitelabel design system",
+  "main": "index.js",
+  "scripts": {
+    "start": "start-storybook -p 9090",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design system",
+    "whitelabel",
+    "storybook"
+  ],
+  "author": "Birgit Pohl",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/addon-docs": "6.0.0-rc.28",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/theming": "^5.3.19",
+    "@storybook/web-components": "6.0.0-rc.28",
+    "babel-loader": "^8.1.0",
+    "lit-element": "^2.3.1"
+  }
+}
