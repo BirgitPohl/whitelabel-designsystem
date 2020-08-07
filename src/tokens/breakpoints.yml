@@ -1,0 +1,45 @@
+#
+# BREAKPOINT TOKENS
+#
+
+props: {
+  breakpoint_xs: {
+    value: '480px',
+    type: 'media-query',
+    meta: {
+      release: 1
+    }
+  },
+  breakpoint_s: {
+    value: '576px',
+    type: 'media-query',
+    meta: {
+      release: 1
+    }
+  },
+  breakpoint_m: {
+    value: '768px',
+    type: 'media-query',
+    meta: {
+      release: 1
+    }
+  },
+  breakpoint_l: {
+    value: '960px',
+    type: 'media-query',
+    meta: {
+      release: 1
+    }
+  },
+  breakpoint_xl: {
+    value: '1280px',
+    type: 'media-query',
+    meta: {
+      release: 1
+    }
+  }
+}
+
+global:
+  type: any
+  category: media-query

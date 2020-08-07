@@ -1,0 +1,15 @@
+#
+# GLOBAL: DESIGN TOKENS
+#
+
+imports:
+  - ./typography.yml
+  - ./colors.yml
+  - ./breakpoints.yml
+  - ./z-index.yml
+  - ./spaces.yml
+  - ./borders.yml
+  - ./icons.yml
+global:
+  type: global
+  category: all

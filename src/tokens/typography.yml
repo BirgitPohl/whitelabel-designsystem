@@ -1,0 +1,42 @@
+#
+# FONT TOKENS
+# Use these tokens to set font sizes, line height, font family, etc.
+#
+
+props:
+  font_family:
+    value: "'Helvetica Neue', helvetica, Arial, sans-serif"
+  font_family_heading:
+    value: "'Helvetica Neue', helvetica, Arial, sans-serif"
+  text_base_size:
+    value: "16px"
+  text_base_ratio:
+    value: "1.25"
+  font_size_xxs:
+    value: '12px'
+  font_size_xs:
+    value: '14px'
+  font_size_s:
+    value: '16px'
+  font_size_m:
+    value: '18px'
+  font_weight-light:
+    value: 300
+  font_weight_regular:
+    value: 'normal'
+  font_weight_medium:
+    value: 500
+  font_weight_bold:
+    value: 'bold'
+  line_height_xxs:
+    value: '20px'
+  line_height_xs:
+    value: '24px'
+  line_height_s:
+    value: '26px'
+  line_height_m:
+    value: '28px'
+  
+global:
+  type: any
+  category: font

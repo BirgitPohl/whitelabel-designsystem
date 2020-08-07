@@ -1,0 +1,42 @@
+#
+# SPACE TOKENS
+#
+
+props:
+  space_3xl:
+    value: "48px"
+  space_xxl:
+    value: "40px"
+  space_xl:
+    value: "32px"
+  space_l:
+    value: "24px"
+  space_m:
+    value: "16px"
+  space_s:
+    value: "12px"
+  space_xs:
+    value: "8px"
+  space_xxs:
+    value: "4px"
+  space_3xs:
+    value: "2px"
+  layout_xxs:
+    value: "16px"
+  layout_xs:
+    value: "24px"
+  layout_s:
+    value: "32px"
+  layout_m:
+    value: "48px"
+  layout_l:
+    value: "64px"
+  layout_xl:
+    value: "96px"
+  layout_xxl:
+    value: "128px"
+  layout_3xl:
+    value: "160px"
+global:
+  type: any
+  category: spacing

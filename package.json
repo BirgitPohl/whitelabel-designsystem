@@ -1,14 +1,17 @@
 {
   "name": "poc-storybook-designsystem",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "POC for a whitelabel design system",
   "main": "index.js",
   "scripts": {
     "start": "start-storybook -p 9090",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "build-storybook",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wca": "wca analyze 'packages/**/src/*.ts' --outFile custom-elements.json",
   },
   "keywords": [
     "design system",
+    "web components",
     "whitelabel",
     "storybook"
   ],
@@ -16,11 +19,13 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.11.1",
     "@storybook/addon-docs": "6.0.0-rc.28",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/theming": "^5.3.19",
+    "@storybook/addons": "6.0.0-rc.28",
+    "@storybook/theming": "6.0.0-rc.28",
     "@storybook/web-components": "6.0.0-rc.28",
     "babel-loader": "^8.1.0",
-    "lit-element": "^2.3.1"
+    "lit-element": "^2.3.1",
+    "storybook-design-token": "^0.7.8"
   }
 }

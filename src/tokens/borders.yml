@@ -1,0 +1,45 @@
+#
+# BORDERS TOKENS
+#
+
+props: {
+  border_radius_default: {
+    value: '3px',
+    type: 'border',
+    meta: {
+      release: 1
+    }
+  },
+  border_radius_circle: {
+    value: '50%',
+    type: 'border',
+    meta: {
+      release: 1
+    }
+  },
+  border_radius_card: {
+    value: '6px',
+    type: 'border',
+    meta: {
+      release: 1
+    }
+  },
+  border_radius_input: {
+    value: '2px',
+    type: 'border',
+    meta: {
+      release: 1
+    }
+  },
+  border_radius_button: {
+    value: '2px',
+    type: 'border',
+    meta: {
+      release: 1
+    }
+  }
+}
+
+global:
+  type: any
+  category: border

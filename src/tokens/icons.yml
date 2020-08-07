@@ -1,0 +1,115 @@
+# #
+# # SVG ICON TOKENS
+# #
+
+# props: {
+#   icon_size: {
+#     value: '20px',
+#     type: 'size',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_phone: {
+#     value: 'src/assets/svgs/phone.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_airplane: {
+#     value: 'src/assets/svgs/airplane.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_checkmark: {
+#     value: 'src/assets/svgs/checkmark.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_warning: {
+#     value: 'src/assets/svgs/warning.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_chevron_down: {
+#     value: 'src/assets/svgs/chevron-down.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_share: {
+#     value: 'src/assets/svgs/share.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_close: {
+#     value: 'src/assets/svgs/close-x.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_category: {
+#     value: 'src/assets/svgs/category.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_location: {
+#     value: 'src/assets/svgs/location.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_edit: {
+#     value: 'src/assets/svgs/edit.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_save: {
+#     value: 'src/assets/svgs/save.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_mail: {
+#     value: 'src/assets/svgs/mail.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_whatsapp: {
+#     value: 'src/assets/svgs/whatsapp.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   },
+#   icon_copy: {
+#     value: 'src/assets/svgs/copy.svg',
+#     type: 'svg-default',
+#     meta: {
+#       release: 1
+#     }
+#   }
+# }
+
+# global:
+#   type: svg
+#   category: svg

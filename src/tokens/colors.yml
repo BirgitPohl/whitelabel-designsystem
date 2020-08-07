@@ -1,0 +1,103 @@
+#
+# COLOR TOKENS
+# Use these tokens to set all colors
+# Set the colors as CSS-Property with a default fallback
+# CSS-Properties can be overwritten in the projects
+#
+# To create abstractions from primary/secondary colors
+# you need to specify them as rgb values
+#
+
+props:
+  # Primary Base Color
+  color_primary_a:
+    value: '#000000'
+  color_primary_a_80:
+    value: '#ffad62'
+  color_primary_a_60:
+    value: '#ffc28b'
+  color_primary_a_40:
+    value: '#ffd7b2'
+  color_primary_a_20:
+    value: '#ffead9'
+
+  # Second Primary Base Color
+  color_primary_b:
+    value: '#feef02'
+  color_primary_b_80:
+    value: '#fef259'
+  color_primary_b_60:
+    value: '#fef687'
+  color_primary_b_40:
+    value: '#fff9b1'
+  color_primary_b_20:
+    value: '#fefcd8'
+
+  # Secondary Colors
+  color_secondary_a:
+    value: '#6612cc'
+  color_secondary_a_80:
+    value: '#8549d7'
+  color_secondary_a_60:
+    value: '#a578e2'
+  color_secondary_a_40:
+    value: '#c3a6ec'
+  color_secondary_a_20:
+    value: '#e2d2f6'
+
+  color_secondary_b:
+    value: '#ff9933'
+  color_secondary_b_80:
+    value: '#ffad62'
+  color_secondary_b_60:
+    value: '#ffc28b'
+  color_secondary_b_40:
+    value: '#ffd7b2'
+  color_secondary_b_20:
+    value: '#ffead9'
+
+  color_secondary_c:
+    value: '#96b440'
+  color_secondary_c_80:
+    value: '#abc26a'
+  color_secondary_c_60:
+    value: '#c0d290'
+  color_secondary_c_40:
+    value: '#d5e1b6'
+  color_secondary_c_20:
+    value: '#eaf0da'
+
+  # Black to White
+  color_black:
+    value: '#1D1C1C'
+  color_black-90:
+    value: '#333'
+  color_black-80:
+    value: '#666'
+  color_black-70:
+    value: '#888'
+  color_black-60:
+    value: '#979797'
+  color_black-50:
+    value: '#B5B5B5'
+  color_black-40:
+    value: '#D6D6D6'
+  color_black-30:
+    value: '#F5F5F5'
+  color_white:
+    value: '#ffffff'
+
+  # Decisions that are transparent
+  color_background_backdrop:
+    value: 'rgba(#F5F5F5, 0.8)'
+  color_status_red:
+    value: 'rgb(244, 0, 0)'
+  color_status_orange:
+    value: 'rgb(255, 199, 0)'
+  color_status_green:
+    value: 'rgb(150, 180, 64)'
+  color_box_shadow:
+    value: 'rgba(135,136,138,0.4)'
+global:
+  type: any
+  category: color
