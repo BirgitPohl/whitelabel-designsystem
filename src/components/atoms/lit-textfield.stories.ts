@@ -1,8 +1,8 @@
-import './textfield';
+import './lit-textfield';
 import { html } from 'lit-html';
 
 export default {
-    title: 'Components / Atoms / Textfield',
+    title: 'Components / Atoms / Lit-Textfield',
   };
   
 export const withText = () =>  html`

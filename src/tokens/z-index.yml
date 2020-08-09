@@ -1,0 +1,20 @@
+#
+# FONT TOKENS
+# Use these tokens to set font sizes, line height, font family, etc.
+#
+
+props:
+  z_index_modal:
+    value: 9000
+  z_index_oberlay:
+    value: 8000
+  z_index_dropdown:
+    value: 7000
+  z_index_header:
+    value: 6000
+  z_index_footer:
+    value: 5000
+  
+global:
+  type: any
+  category: font

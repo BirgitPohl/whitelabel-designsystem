@@ -1,5 +1,3 @@
-import { property, html, LitElement } from 'lit-element';
-
 /**
  * A text field web component
  * @attr {Boolean} disabled - Disables this element
@@ -9,21 +7,22 @@ import { property, html, LitElement } from 'lit-element';
  * @cssprop --placeholder-color - Controls the color of the placeholder
  * @csspart placeholder - Placeholder css shadow part
  */
-export default class TextField extends LitElement {
+export default class HTMLTextField extends HTMLInputElement {
     /**
      * Size of the text field
      * @attr
-     * @type {"small"|"large"}
+     * @type {"text"|"password|search"}
      */
-    size = "large";
+    size = 20;
     type = "text";
     placeholder = "set text";
-    text = "";
-    // @property({ type: String }) type = 'text';
+    value = "";
   
     constructor() {
       super();
     }
+
+    
   
     // static get observedAttributes() {
     //   return ["placeholder"];
@@ -37,17 +36,17 @@ export default class TextField extends LitElement {
     //   this.value = "hey";
     // }
 
-    protected render() {
-      return html`
-        <input
-          type="${this.type}"
-          placeholder="${this.placeholder}"
-          value="${this.text}"
-        />
-      `;
-    }
+    // render() {
+    //   return `
+    //     <input
+    //       type="${this.type}"
+    //       placeholder="${this.placeholder}"
+    //       value="${this.text}"
+    //     />
+    //   `;
+    // }
   
   }
   
-  customElements.define("text-field", TextField);
+  customElements.define("html-text-field", HTMLTextField, {extends: 'input'});
   
