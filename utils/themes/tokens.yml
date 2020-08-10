@@ -1,0 +1,31 @@
+#
+# BRANDED TOKENS
+# Use tokens to brand
+# You can find brandable tokens in the whitelabel design system
+#
+
+imports:
+  # Import of the default tokens
+  - "../../src/tokens/tokens.yml"
+  # You can import additional files as well
+  #- './colors.yml'
+
+props:
+  # Primary Base BRANDED Color
+  color_primary_a:
+    value: '#330000'
+  color_primary_a_80:
+    value: '#96b440'
+  color_primary_a_60:
+    value: '#abc26a'
+  color_primary_a_40:
+    value: '#c0d290'
+  color_primary_a_20:
+    value: '#eaf0da'
+
+  # Optional
+  # This object will be merged into each property
+  # Values defined on a property level will take precedence
+global:
+  type: any
+  category: color

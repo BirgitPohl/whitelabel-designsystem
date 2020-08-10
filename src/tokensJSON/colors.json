@@ -1,0 +1,44 @@
+{
+  "props": [
+     {
+       "name": "color_primary_a",
+       "value": "#000000",
+       "type": "color",
+       "category": "brand"
+     },
+     {
+      "name": "color_primary_a_80",
+      "value": "#ffad62",
+      "type": "color",
+      "category": "brand"
+    },
+    {
+      "name": "color_primary_a_60",
+      "value": "#ffc28b",
+      "type": "color",
+      "category": "brand"
+    },
+
+    {
+      "name": "color_secondary_a",
+      "value": "#6612cc",
+      "type": "color",
+      "category": "brand"
+    },
+    {
+     "name": "color_secondary_a_80",
+     "value": "#8549d7",
+     "type": "color",
+     "category": "brand"
+   },
+   {
+     "name": "color_secondary_a_60 ",
+     "value": "#a578e2",
+     "type": "color",
+     "category": "brand"
+   }
+   ],
+   "global": {
+    "type": "color"
+  }
+ }

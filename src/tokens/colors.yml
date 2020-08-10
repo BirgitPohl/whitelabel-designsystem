@@ -98,6 +98,10 @@ props:
     value: 'rgb(150, 180, 64)'
   color_box_shadow:
     value: 'rgba(135,136,138,0.4)'
+
+  # Optional
+  # This object will be merged into each property
+  # Values defined on a property level will take precedence
 global:
   type: any
   category: color
