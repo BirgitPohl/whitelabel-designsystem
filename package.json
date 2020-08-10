@@ -8,10 +8,11 @@
     "build": "build-storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
     "wca": "wca analyze 'packages/**/src/*.ts' --outFile custom-elements.json",
-    "theme:red": "theo ./utils/themes/tokens.yml --transform web --format map.scss,scss,json --dest ./src/assets/scss/tokens",
-    "theo": "theo ./src/tokens/tokens.yml --transform web --format map.scss,scss,json --dest ./src/assets/scss/tokens",
+    "themer": "node ./utils/whitelabel-themer/index.js ./utils/themes/",
+    "theme:red": "theo ./src/tokens/red/tokens.yml --transform web --format map.scss,scss,json --dest ./src/assets/scss/tokens",
+    "theo": "theo ./src/tokens/default/tokens.yml --transform web --format map.scss,scss,json --dest ./src/assets/scss/tokens",
     "theo:json": "theo ./src/tokensJSON/colors.json --transform web --format module.js --dest ./src/assets/scss/tokens",
-    "theo2": "theo ./src/tokens/tokens.yml --setup ./theo.config.js --transform web --format map.scss,scss,json --dest ./src/assets/scss/tokens",
+    "theo:config": "theo ./src/tokens/defaul/tokens.yml --setup ./theo.config.js --transform web --format map.scss,scss,json --dest ./src/assets/scss/tokens",
     "theo:watch": "onchange --no-exclude \"./assets/tokens/*.yml\" \"./node_modules/drive-lib/assets/tokens/*.yml\" -- npm run theo"
   },
   "keywords": [
