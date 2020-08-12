@@ -1,4 +1,4 @@
-import { property, html, LitElement } from 'lit-element';
+import { property, customElement, html, LitElement } from 'lit-element';
 
 /**
  * A text field web component
@@ -8,22 +8,28 @@ import { property, html, LitElement } from 'lit-element';
  * @slot header - Content placed in the header of the text field
  * @cssprop --placeholder-color - Controls the color of the placeholder
  * @csspart placeholder - Placeholder css shadow part
+ * @todo further development might include more types: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
  */
-export default class TextField extends LitElement {
+@customElement('wl-textfield')
+export default class WLTextField extends LitElement {
     /**
+     * SOME DOCUMENTATION
      * Size of the text field
      * @attr
-     * @type {"small"|"large"}
+     * @size {"small"|"large"}
      */
-    size = "large";
-    type = "text";
-    placeholder = "set text";
-    value = "";
-    // @property({ type: String }) type = 'text';
-    styles = {
-      "background-color": "$color-status-red",
-      "color": "red"
-    };
+    @property({ type: String }) size: string = 'large';
+    @property({ type: String }) placeholder: string = 'Type Input...';
+    @property({ type: String }) type: string = 'text';
+    @property({ type: String }) value: string = '';
+    
+    // TODO Styling
+    
+    
+    // static styles = 
+    // `{
+    //   background-color: red, 
+    // }`;
     constructor() {
       super();
     }
@@ -45,6 +51,7 @@ export default class TextField extends LitElement {
     protected render() {
       return html`
         <input
+          size="${this.size}"
           type="${this.type}"
           placeholder="${this.placeholder}"
           value="${this.value}"
@@ -54,5 +61,10 @@ export default class TextField extends LitElement {
   
   }
   
-  customElements.define("text-field", TextField);
+  // declare global {
+  //   interface HTMLElementTagNameMap {
+  //     'wl-textfield': WLTextField;
+  //   }
+  // }
+  
   

@@ -8,7 +8,7 @@ npm start // starts server in port 9090
 or
 ```bash
 yarn install
-zarn start // starts server in port 9090
+yarn start // starts server in port 9090
 ```
 
 ## Web Components
@@ -23,3 +23,6 @@ npm run analyze
 
 ### MDX support
 Is to be released with stable Storybook ^6.0.0 and MDX ^2.0.0
+
+### Todo
+- try out storybook design token
