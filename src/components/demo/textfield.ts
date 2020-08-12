@@ -1,4 +1,5 @@
 import { property, customElement, html, LitElement } from 'lit-element';
+import { styleMap } from 'lit-html/directives/style-map'
 
 /**
  * A text field web component
@@ -25,11 +26,12 @@ export default class WLTextField extends LitElement {
     
     // TODO Styling
     
-    
-    // static styles = 
-    // `{
-    //   background-color: red, 
-    // }`;
+    // camelCase or with dash
+    // backgroundColor or background-color
+    styles = {
+      "background-color": "red",
+      "color": "white"
+    };
     constructor() {
       super();
     }
@@ -51,6 +53,7 @@ export default class WLTextField extends LitElement {
     protected render() {
       return html`
         <input
+          style=${styleMap(this.styles)}
           size="${this.size}"
           type="${this.type}"
           placeholder="${this.placeholder}"
