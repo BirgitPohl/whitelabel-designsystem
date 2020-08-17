@@ -1,5 +1,6 @@
-import { property, customElement, html, LitElement } from 'lit-element';
+import { property, customElement, html, css, LitElement } from 'lit-element';
 import { styleMap } from 'lit-html/directives/style-map'
+import  styles from './textfield.css'
 
 /**
  * A text field web component
@@ -11,6 +12,7 @@ import { styleMap } from 'lit-html/directives/style-map'
  * @csspart placeholder - Placeholder css shadow part
  * @todo further development might include more types: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
  */
+
 @customElement('wl-textfield')
 export default class WLTextField extends LitElement {
     /**
@@ -22,16 +24,17 @@ export default class WLTextField extends LitElement {
     @property({ type: String }) size: string = 'large';
     @property({ type: String }) placeholder: string = 'Type Input...';
     @property({ type: String }) type: string = 'text';
-    @property({ type: String }) value: string = '';
+    @property({ type: String }) value: string = 'dfdeeee';
     
     // TODO Styling
     
     // camelCase or with dash
     // backgroundColor or background-color
-    styles = {
-      "background-color": "red",
-      "color": "white"
-    };
+    // styles = {
+    //   "background-color": "red",
+    //   "color": "white"
+    // };
+    //static styles = styles;
     constructor() {
       super();
     }
@@ -50,10 +53,17 @@ export default class WLTextField extends LitElement {
     //   this.value = "hey";
     // }
 
+    static get styles() {
+      // Write styles in standard CSS
+      return css[styles];
+    }
+
     protected render() {
       return html`
+        
+        <link rel="textfield.css">
         <input
-          style=${styleMap(this.styles)}
+          
           size="${this.size}"
           type="${this.type}"
           placeholder="${this.placeholder}"
